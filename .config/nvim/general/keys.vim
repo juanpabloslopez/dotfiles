@@ -1,3 +1,7 @@
+" This is for save and quite more faster
+nmap <Leader>w : w<CR>
+nmap <Leader>q : q<CR>
+
 " Remap escape
 nnoremap <C-c> <Esc>
 inoremap jk <Esc>
@@ -35,7 +39,7 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
-f !exists('g:vscode')
+if !exists('g:vscode')
     " TAB in general mode will move to next buffer
     nnoremap <TAB> :bnext<CR>
     " SHIFT-TAB will go to prev buffer

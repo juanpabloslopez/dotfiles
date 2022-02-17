@@ -15,12 +15,11 @@ else
     source $HOME/.config/nvim/plug-config/signify.vim
     source $HOME/.config/nvim/plug-config/vim-commentary.vim
     source $HOME/.config/nvim/plug-config/rnvimr.vim
+    source $HOME/.config/nvim/plug-config/vim-easymotion.vim
+    " source $HOME/.config/nvim/plug-config/fzf.vim
+    " source $HOME/.config/nvim/plug-config/prettier.vim
     " Themes
     source $HOME/.config/nvim/general/colors.vim
     source $HOME/.config/nvim/themes/airline.vim
+    source $HOME/.config/nvim/themes/onedark.vim
 endif
-
-" This is for save and quite more faster
-nmap <Leader>s <Plug>(easymotion-s2)
-nmap <Leader>w : w<CR>
-nmap <Leader>q : q<CR>
