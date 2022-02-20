@@ -1,16 +1,22 @@
-# if status is-interactive
-#     # Commands to run in interactive sessions can go here
-# end
-set fish_greeting ""
+### EXPORT ###
+set fish_greeting                                 # Supresses fish's intro message
+set TERM "xterm-256color"                         # Sets the terminal type
 
-# Aliases
+### AUTOCOMPLETE AND HIGHLIGHT COLORS ###
+set fish_color_normal brcyan
+set fish_color_autosuggestion '#7d7d7d'
+set fish_color_command brcyan
+set fish_color_error '#ff6c6b'
+set fish_color_param brcyan
+### ALIASES ###
 
-alias grep "grep --color=auto"
-alias cat "bat --style=plain --paging=never"
-alias ls "exa --group-directories-first"
-alias tree "exa -T"
-alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
+# navigation
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
 
-# Prompt
-
+### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
+

@@ -11,7 +11,7 @@ export PATH=/opt/homebrew/bin:$PATH
 
 alias neofetch="neofetch --config ~/.config/neofetch/config.conf"
 alias v="nvim ."
-alias config='ranger ~/.config'
+alias config='ranger ~/dotfiles/.config/'
 alias zrc='nvim ~/.zshrc'
 
 # neofetch
