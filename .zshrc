@@ -13,7 +13,9 @@ alias neofetch="neofetch --config ~/.config/neofetch/config.conf"
 alias v="nvim ."
 alias config='ranger ~/dotfiles/.config/'
 alias zrc='nvim ~/.zshrc'
+alias f='fish'
 
+f
 # neofetch
 # uncomment line above for display features of hardware when opening a new terminal
 

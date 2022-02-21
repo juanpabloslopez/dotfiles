@@ -31,6 +31,7 @@ symbol = " "
 
 [nodejs]
 format = "[$symbol($version )]($style)"
+symbol = " "
 
 [php]
 format = "[$symbol($version )]($style)"
