@@ -10,12 +10,25 @@ export PATH=/opt/homebrew/bin:$PATH
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias neofetch="neofetch --config ~/.config/neofetch/config.conf"
-alias v="nvim ."
-alias config='ranger ~/dotfiles/.config/'
-alias zrc='nvim ~/.zshrc'
 alias f='fish'
+alias ..='cd ..'
+alias ...='cd ../..'
+alias .3='cd ../../..'
+alias .4='cd ../../../..'
+alias .5='cd ../../../../..'
+alias exa='exa --icons'
+alias el='exa -l --icons --git'
+alias ea='exa -a --icons'
+alias ex='exa -l -a --icons --git'
+# alias ls='exa --icons'
+# alias l='exa -l --icons --git'
+# alias a='exa -a --icons'
+# alias la='exa -l -a --icons --git'
+alias lt='exa -T -a --icons'
+alias v='nvim .'
+alias config='nvim ~/dotfiles/.config/'
+alias zrc='nvim ~/dotfiles/.zshrc'
 
-f
 # neofetch
 # uncomment line above for display features of hardware when opening a new terminal
 

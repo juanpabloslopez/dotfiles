@@ -1,4 +1,5 @@
 ### EXPORT ###
+# export PATH=/opt/homebrew/bin:$PATH
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
 
@@ -28,4 +29,6 @@ alias zrc='nvim ~/dotfiles/.zshrc'
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
-# export STARSHIP_CONFIG=~/.config/starship.toml
+# kitty + complete setup fish | source
+# export STARSHIP_CONFIG=~/.config/starship.tomlset 
+
