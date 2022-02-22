@@ -16,10 +16,10 @@ else
     source $HOME/.config/nvim/plug-config/vim-commentary.vim
     source $HOME/.config/nvim/plug-config/rnvimr.vim
     source $HOME/.config/nvim/plug-config/vim-easymotion.vim
-    " source $HOME/.config/nvim/plug-config/fzf.vim
+    source $HOME/.config/nvim/plug-config/fzf.vim
     source $HOME/.config/nvim/plug-config/prettier.vim
     " Themes
     source $HOME/.config/nvim/general/colors.vim
     source $HOME/.config/nvim/themes/airline.vim
-    source $HOME/.config/nvim/themes/airline.vim
+    source $HOME/.config/nvim/themes/dracula.vim
 endif

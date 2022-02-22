@@ -5,7 +5,7 @@ call plug#begin()
 
     if exists('g:vscode')
         " Easy motion dor VSCode
-        " Plug '/'
+        " Plug 'asvetliakov/vim-easymotion'
     else
         " Syntax
         Plug 'sheerun/vim-polyglot'
@@ -38,8 +38,11 @@ call plug#begin()
         " Typing
         " Plug 'tpope/vim-surround'
         " Fzf
-
+        Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+        Plug 'junegunn/fzf.vim'
+        Plug 'airblade/vim-rooter'
         " Prettier
+        " Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
         
         "Themes
         Plug 'joshdick/onedark.vim'
