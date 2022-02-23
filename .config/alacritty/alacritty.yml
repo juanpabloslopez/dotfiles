@@ -73,5 +73,7 @@ window:
   opacity: 0.8
   padding:
     x: 3
-# shell:
-#   program: /opt/homebrew/bin/fish
+shell:
+  program: /opt/homebrew/bin/fish
+  args:
+    - --login

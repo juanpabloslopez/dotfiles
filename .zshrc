@@ -10,7 +10,6 @@ export PATH=/opt/homebrew/bin:$PATH
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias neofetch="neofetch --config ~/.config/neofetch/config.conf"
-alias f='fish'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias .3='cd ../../..'
