@@ -28,7 +28,7 @@ alias v='nvim .'
 alias config='nvim ~/dotfiles/.config/'
 alias zrc='nvim ~/dotfiles/.zshrc'
 
-# neofetch
+neofetch
 # uncomment line above for display features of hardware when opening a new terminal
 
 # ocultar info al comienzo de la terminal

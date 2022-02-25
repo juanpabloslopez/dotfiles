@@ -2,6 +2,9 @@
 nmap <Leader>w : w<CR>
 nmap <Leader>q : q<CR>
 
+" Quick semi
+nnoremap <Leader>; $a;<Esc>
+
 " Remap escape
 nnoremap <C-c> <Esc>
 inoremap jk <Esc>
@@ -10,10 +13,10 @@ inoremap jj <Esc>
 inoremap kk <Esc>
 
 " Use alt + hjkl to resize windows
-nnoremap <M-j> :resize -2<CR>
-nnoremap <M-k> :resize +2<CR>
-nnoremap <M-h> :vertical resize -2<CR>
-nnoremap <M-l> :vertical resize +2<CR>
+nnoremap <M-Down> :resize -2<CR>
+nnoremap <M-Up> :resize +2<CR>
+nnoremap <M-Left> :vertical resize -2<CR>
+nnoremap <M-Right> :vertical resize +2<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>

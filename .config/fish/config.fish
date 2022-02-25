@@ -33,6 +33,7 @@ alias v='nvim .'
 alias config='nvim ~/dotfiles/.config/'
 alias zrc='nvim ~/dotfiles/.zshrc'
 alias vim='nvim'
+# alias ~='~'
 
 ### SETTING THE STARSHIP PROMPT ###
 starship init fish | source
