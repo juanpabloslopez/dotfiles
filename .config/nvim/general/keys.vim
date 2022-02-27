@@ -1,3 +1,13 @@
+" nmap -> Works recursively in normal mode
+" nnoremap -> Works non-recursively in normal mode
+
+" inoremap -> Insert mode
+" vnoremap -> Visual and select modes
+" xnoremap -> Visual mode
+" snoremap -> Select mode
+" cnoremap -> Command-line mode
+" onoremap -> Operator pending mode
+
 " This is for save and quite more faster
 nmap <Leader>w : w<CR>
 nmap <Leader>q : q<CR>

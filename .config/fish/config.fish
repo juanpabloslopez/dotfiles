@@ -7,6 +7,7 @@ set -e fish_user_paths
 set -U fish_user_paths /opt/homebrew/bin /usr/bin $fish_user_paths
 set -gx EDITOR nvim
 
+# Theme
 set fish_greeting                                 # Supresses fish's intro message
 set TERM "xterm-256color"                         # Sets the terminal type
 
