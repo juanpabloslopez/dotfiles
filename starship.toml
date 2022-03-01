@@ -34,8 +34,10 @@ format = "[$symbol($version )]($style)"
 symbol = " "
 
 [php]
-format = "[$symbol($version )]($style)"
-symbol = " "
+format = " "
+# format = "[$symbol($version )]($style)"
+symbol = " "
+# symbol = " "
 
 [java]
 format = "[${symbol}(${version} )]($style)"
