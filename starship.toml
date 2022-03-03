@@ -23,12 +23,13 @@ style = "bold bright-cyan"
 [cmd_duration]
 format = "[$duration]($style) "
 
-# [character] # The name of the module we are configuring is "character"
-# success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
-# vicmd_symbol = "[v](bold dimmed white)"
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[[\\[I\\]](bold white) ➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
+vicmd_symbol = "[[\\[V\\]](bold white) ➜](bold red)"
+error_symbol = "[[\\[I\\]](bold red) ➜](bold red)"
 
 [status]
-disabled = false
+disabled = true
 format = "[$symbol $status]($style) "
 not_found_symbol = ""
 not_executable_symbol = ""
