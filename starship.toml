@@ -1,14 +1,29 @@
 scan_timeout = 60
 add_newline = false
 
+[username]
+format = "$user"
+disabled = false
+show_always = true
+style_user = "bold blue"
+
+[hostname]
+format =  " $hostname "
+ssh_only = false
+disabled = false
+
 [line_break]
-disabled = true
+disabled = false
 
 [directory]
+# format = "$directory"
 style = "bold blue"
 
 [cmd_duration]
 format = "[$duration]($style) "
+
+[character] # The name of the module we are configuring is "character"
+success_symbol = "[➜](bold green)" # The "success_symbol" segment is being set to "➜" with the color "bold green"
 
 [status]
 disabled = false
@@ -34,10 +49,9 @@ format = "[$symbol($version )]($style)"
 symbol = " "
 
 [php]
-format = " "
-# format = "[$symbol($version )]($style)"
-symbol = " "
-# symbol = " "
+format = "[$symbol($version )]($style)"
+symbol = " "
+disabled = true
 
 [java]
 format = "[${symbol}(${version} )]($style)"
