@@ -2,15 +2,16 @@ scan_timeout = 60
 add_newline = false
 
 [username]
-format = "$user"
+format = "[$user]($style)"
 disabled = false
 show_always = true
-style_user = "bold blue"
+style_user = "green"
 
 [hostname]
-format =  " $hostname "
+format =  " [$hostname]($style) "
 ssh_only = false
 disabled = false
+style = "bold dimmed white"
 
 [line_break]
 disabled = false

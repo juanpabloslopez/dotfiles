@@ -143,3 +143,8 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 #POWERLEVEL9K_VCS_MODIFIED_BACKGROUND=´red´
+fpath=($fpath "/Users/alejandroherrera/.zfunctions")
+
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
