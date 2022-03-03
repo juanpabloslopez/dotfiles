@@ -28,6 +28,7 @@ alias ex='exa -l -a --icons --git'
 # alias la='exa -l -a --icons --git'
 alias lt='exa -T -a --icons'
 alias v='nvim .'
+alias vim='nvim'
 alias config='nvim ~/dotfiles/.config/'
 alias zrc='nvim ~/dotfiles/.zshrc'
 
@@ -148,3 +149,16 @@ fpath=($fpath "/Users/alejandroherrera/.zfunctions")
 # Set Spaceship ZSH as a prompt
 # autoload -U promptinit; promptinit
 # prompt spaceship
+
+# Colors
+
+typeset -A ZSH_HIGHLIGHT_STYLES
+ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[precommand]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[reserved-word]='fg=magenta'
+ZSH_HIGHLIGHT_STYLES[unknown-token]='fg=red'
+ZSH_HIGHLIGHT_STYLES[redirection]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[commandseparator]='fg=cyan'
+ZSH_HIGHLIGHT_STYLES[single-hyphen-option]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[double-hyphen-option]='fg=blue'
+ZSH_HIGHLIGHT_STYLES[path]='fg=blue'

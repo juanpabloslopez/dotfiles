@@ -5,20 +5,20 @@ add_newline = false
 format = "[$user]($style)"
 disabled = false
 show_always = true
-style_user = "green"
+style_user = "bold green"
 
 [hostname]
 format =  " [$hostname]($style) "
 ssh_only = false
 disabled = false
-style = "bold dimmed white"
+style = "bold blue"
 
 [line_break]
 disabled = false
 
 [directory]
 # format = "$directory"
-style = "bold blue"
+style = "bold bright-cyan"
 
 [cmd_duration]
 format = "[$duration]($style) "
