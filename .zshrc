@@ -146,5 +146,5 @@ source $ZSH/oh-my-zsh.sh
 fpath=($fpath "/Users/alejandroherrera/.zfunctions")
 
 # Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+# autoload -U promptinit; promptinit
+# prompt spaceship
