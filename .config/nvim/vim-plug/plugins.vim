@@ -10,6 +10,8 @@ call plug#begin()
         " Syntax
         Plug 'sheerun/vim-polyglot'
         Plug 'nvim-treesitter/nvim-treesitter'
+        " Syntax(PHP)
+        Plug 'StanAngeloff/php.vim'
         " Autopairs
         Plug 'jiangmiao/auto-pairs' " Problems with double quotes
         " File explorer
@@ -26,7 +28,7 @@ call plug#begin()
         " IDE
         Plug 'mhinz/vim-signify'
         Plug 'easymotion/vim-easymotion' " search any object with two characters
-        Plug 'christoomey/vim-tmux-navigator' " change of screen with ctrl+[h-l]
+        Plug 'christoomey/vim-tmux-navigator' " change of screen with ctrl+[arrows]
         " Autoclose tags
         Plug 'alvan/vim-closetag'
         " Ranger

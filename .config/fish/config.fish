@@ -3,6 +3,7 @@
 # export PATH=/usr/bin:$PATH
 # export PATH=/bin:$PATH
 
+neofetch
 set -e fish_user_paths
 set -U fish_user_paths /opt/homebrew/bin /usr/bin $fish_user_paths
 set -gx EDITOR nvim
