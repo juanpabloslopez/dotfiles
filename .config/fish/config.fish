@@ -3,7 +3,7 @@
 # export PATH=/usr/bin:$PATH
 # export PATH=/bin:$PATH
 
-neofetch
+# neofetch
 set -e fish_user_paths
 set -U fish_user_paths /opt/homebrew/bin /usr/bin $fish_user_paths
 set -gx EDITOR nvim
@@ -34,6 +34,7 @@ alias la='exa -l -a --icons --git'
 alias lt='exa -T -a --icons --git --group-directories-first'
 alias v='nvim .'
 alias config='nvim ~/dotfiles/.config/'
+alias dot='ranger ~/dotfiles'
 alias zrc='nvim ~/dotfiles/.zshrc'
 alias vim='nvim'
 alias cat "bat --style=plain --paging=never"
