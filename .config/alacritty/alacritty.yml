@@ -34,6 +34,6 @@ shell:
   - --login
   program: /opt/homebrew/bin/fish
 window:
-  opacity: 0.8
+  opacity: 0.9
   padding:
     x: 3
